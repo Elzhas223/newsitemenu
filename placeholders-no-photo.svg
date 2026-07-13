@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-label="Фото жоқ, скоро будет">
+  <rect width="1000" height="1000" fill="#ffffff"/>
+  <rect x="48" y="48" width="904" height="904" rx="28" fill="#ffffff" stroke="#dde5df" stroke-width="4"/>
+  <circle cx="500" cy="360" r="92" fill="#eef7f2" stroke="#cfe0d5" stroke-width="4"/>
+  <path d="M422 374h156l-36-46-38 48-27-32-55 30z" fill="#2f7d62" opacity=".9"/>
+  <circle cx="453" cy="332" r="18" fill="#c99a34"/>
+  <text x="500" y="518" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#1d2420">Фото жоқ</text>
+  <text x="500" y="590" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#1d2420">Фото скоро будет</text>
+  <text x="500" y="664" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#66706a">Brilliant Lounge Bar</text>
+</svg>

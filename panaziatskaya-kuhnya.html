@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Паназиатская кухня — Brilliant Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-shell">
+    <div class="container topbar">
+      <a class="brand" href="index.html">
+        <span class="brand__eyebrow">Brilliant Lounge Bar</span>
+        <span class="brand__title">Brilliant Menu</span>
+      </a>
+</div>
+  </header>
+  <main class="page page--products">
+    <div class="container">
+      <nav class="breadcrumbs reveal">
+        <a href="index.html">Главная</a>
+        <span>/</span>
+        <a href="index.html">Меню</a>
+        <span>/</span>
+        <strong>Паназиатская кухня</strong>
+      </nav>
+
+      <div class="section-heading section-heading--products reveal">
+        <div>
+          <p class="eyebrow">BRILLIANT MENU</p>
+          <h1>Паназиатская кухня</h1>
+          <p class="section-heading__text">Яркие блюда с азиатским характером.</p>
+        </div>
+        <div class="section-heading__side">
+          <a class="ghost-link" href="index.html">← Назад в меню</a>
+          <div class="service-pill">Обслуживание 10%</div>
+          <label class="menu-search menu-search--compact" for="menuSearch">
+            <span class="menu-search__icon" aria-hidden="true">⌕</span>
+            <input id="menuSearch" type="search" placeholder="Поиск блюд" autocomplete="off">
+          </label>
+        </div>
+      </div>
+
+      <section class="product-grid">
+        
+        <article class="product-card reveal" style="--delay:0ms">
+          <div class="product-card__image-wrap">
+            <img src="placeholders-no-photo.svg" alt="СЕМГА НА ЖАРОВНЕ" loading="lazy">
+          </div>
+          <div class="product-card__body">
+            <h3>СЕМГА НА ЖАРОВНЕ</h3>
+            <p class="product-card__desc">Семга, которая знает,что такое жар. И это ее украшает</p>
+            <div class="product-card__footer">
+              <div>
+                <div class="price">4 290 ₸</div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" style="--delay:45ms">
+          <div class="product-card__image-wrap">
+            <img src="placeholders-no-photo.svg" alt="КУРИЦА НА ЖАРОВНЕ" loading="lazy">
+          </div>
+          <div class="product-card__body">
+            <h3>КУРИЦА НА ЖАРОВНЕ</h3>
+            <p class="product-card__desc">Курица, пропитанная ароматом углей и специй — на жаровне, как в лучших традициях Востока</p>
+            <div class="product-card__footer">
+              <div>
+                <div class="price">3 690 ₸</div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" style="--delay:90ms">
+          <div class="product-card__image-wrap">
+            <img src="placeholders-no-photo.svg" alt="МЯСО НА ЖАРОВНЕ" loading="lazy">
+          </div>
+          <div class="product-card__body">
+            <h3>МЯСО НА ЖАРОВНЕ</h3>
+            <p class="product-card__desc">Сочное мясо, обжаренное до идеальной корочки и поданное с дымком прямо с жаровни</p>
+            <div class="product-card__footer">
+              <div>
+                <div class="price">3 890 ₸</div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" style="--delay:135ms">
+          <div class="product-card__image-wrap">
+            <img src="placeholders-no-photo.svg" alt="ГУЙРУ ЛАГМАН" loading="lazy">
+          </div>
+          <div class="product-card__body">
+            <h3>ГУЙРУ ЛАГМАН</h3>
+            <p class="product-card__desc">Гуйру лагман — блюдо,где каждая лапша впитала характер Востока</p>
+            <div class="product-card__footer">
+              <div>
+                <div class="price">2 490 ₸</div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" style="--delay:180ms">
+          <div class="product-card__image-wrap">
+            <img src="placeholders-no-photo.svg" alt="ЦОМЯН" loading="lazy">
+          </div>
+          <div class="product-card__body">
+            <h3>ЦОМЯН</h3>
+            <p class="product-card__desc">Обжаренная лапша ручной работы, сочное мясо и специи — Цомян, как он есть</p>
+            <div class="product-card__footer">
+              <div>
+                <div class="price">2 690 ₸</div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" style="--delay:225ms">
+          <div class="product-card__image-wrap">
+            <img src="placeholders-no-photo.svg" alt="ФРИ С МЯСОМ" loading="lazy">
+          </div>
+          <div class="product-card__body">
+            <h3>ФРИ С МЯСОМ</h3>
+            <p class="product-card__desc">Горячая картошка, мясо с огня и немного соуса — и вечер уже удался</p>
+            <div class="product-card__footer">
+              <div>
+                <div class="price">3 590 ₸</div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <p class="empty-state" id="menuEmpty" hidden>Ничего не найдено</p>
+    </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

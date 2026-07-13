@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Фрэш — Brilliant Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-shell">
+    <div class="container topbar">
+      <a class="brand" href="index.html">
+        <span class="brand__eyebrow">Brilliant Lounge Bar</span>
+        <span class="brand__title">Brilliant Menu</span>
+      </a>
+</div>
+  </header>
+  <main class="page page--products page--fresh">
+    <div class="container">
+      <nav class="breadcrumbs reveal">
+        <a href="index.html">Главная</a>
+        <span>/</span>
+        <a href="index.html">Меню</a>
+        <span>/</span>
+        <strong>Фрэш</strong>
+      </nav>
+
+      <div class="section-heading section-heading--products reveal">
+        <div>
+          <p class="eyebrow">BRILLIANT MENU</p>
+          <h1>Фрэш</h1>
+          <p class="section-heading__text">Натуральные свежевыжатые соки.</p>
+        </div>
+        <div class="section-heading__side">
+          <a class="ghost-link" href="index.html">← Назад в меню</a>
+          <div class="service-pill">Обслуживание 10%</div>
+          <label class="menu-search menu-search--compact" for="menuSearch">
+            <span class="menu-search__icon" aria-hidden="true">⌕</span>
+            <input id="menuSearch" type="search" placeholder="Поиск блюд" autocomplete="off">
+          </label>
+        </div>
+      </div>
+
+      <section class="product-grid">
+        
+        <article class="product-card reveal" style="--delay:0ms">
+          <div class="product-card__image-wrap">
+            <img src="products-fresh-orange-fresh-final.png" alt="АПЕЛЬСИН" loading="lazy">
+          </div>
+          <div class="product-card__body">
+            <h3>АПЕЛЬСИН</h3>
+            <p class="product-card__desc">450МЛ</p>
+            <div class="product-card__footer">
+              <div>
+                <div class="price">1 990 ₸</div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" style="--delay:45ms">
+          <div class="product-card__image-wrap">
+            <img src="products-fresh-apple-fresh-final.png" alt="ЯБЛОКО" loading="lazy">
+          </div>
+          <div class="product-card__body">
+            <h3>ЯБЛОКО</h3>
+            <p class="product-card__desc">450МЛ</p>
+            <div class="product-card__footer">
+              <div>
+                <div class="price">1 790 ₸</div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" style="--delay:90ms">
+          <div class="product-card__image-wrap">
+            <img src="products-fresh-pomegranate-fresh-final.png" alt="ГРАНАТ" loading="lazy">
+          </div>
+          <div class="product-card__body">
+            <h3>ГРАНАТ</h3>
+            <p class="product-card__desc">450МЛ</p>
+            <div class="product-card__footer">
+              <div>
+                <div class="price">2 390 ₸</div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" style="--delay:135ms">
+          <div class="product-card__image-wrap">
+            <img src="products-fresh-grapefruit-fresh-final.png" alt="ГЕЙПФРУТ" loading="lazy">
+          </div>
+          <div class="product-card__body">
+            <h3>ГЕЙПФРУТ</h3>
+            <p class="product-card__desc">450МЛ</p>
+            <div class="product-card__footer">
+              <div>
+                <div class="price">2 390 ₸</div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <p class="empty-state" id="menuEmpty" hidden>Ничего не найдено</p>
+    </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
